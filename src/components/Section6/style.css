@@ -1,0 +1,23 @@
+.footer {
+	height: 100px;
+	background: var(--unnamed, #21062A);
+	
+	
+}
+
+.container {}
+
+.footer__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top:36px;
+}
+
+.politic a {
+	color: #fff;
+	font-family: Oswald;
+   font-size: 18px;
+   font-weight: 300;
+  
+}

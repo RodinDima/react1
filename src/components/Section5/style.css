@@ -1,0 +1,57 @@
+.contacts__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__content {}
+
+.contacts__list {
+	list-style: none;
+}
+
+.contacts__item {}
+
+.contacts__item-title {
+	color: var(--unnamed, #5A0D67);
+	font-family: Oswald;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.contacts__item-text {
+	color: var(--unnamed, #2C2B2B);
+		/* текст 1 */
+		font-family: Oswald;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+}
+
+.contacts__form {
+	background-color: #21062A;
+		padding: 50px 75px;
+		text-align: center;
+
+}
+
+input {
+		background-color: transparent;
+		width: 450px;
+		height: 75px;
+		margin-bottom: 12px;
+		display: block;
+		font-size: 24px;
+		text-align: center;
+
+}
+input::placeholder{
+	color: var(--unnamed, #C4C4C4);
+		font-family: Oswald;
+		font-size: 18px;
+		font-weight: 300;
+		
+}
+	

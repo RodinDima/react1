@@ -1,0 +1,43 @@
+.slider {
+	margin-bottom: 100px;
+}
+
+.container {}
+
+.slider__content {
+	
+}
+
+.slider__list {
+	display: flex;
+	list-style: none;
+	gap: 14px;
+
+}
+
+.slider__item {
+	text-align: center;
+}
+
+.Infinity {
+	margin-bottom: 20px;
+}
+
+.slider__title {
+	color: var(--unnamed, #2C2B2B);
+	font-family: Oswald;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 5px;
+	line-height: 27px;
+}
+
+.slider__price {
+	color: var(--unnamed, #2C2B2B);
+	font-family: Oswald;
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 27px;
+}
