@@ -7,6 +7,17 @@
 		line-height: 53px;
 		text-transform: uppercase;
 	margin-left: 185px;
+	position: relative;
 
+}
+
+.advances__title::after{
+content: "";
+position: absolute;
+	width: 80px;
+		height: 3px;
+	background: #21062A;
+	top: 27px;
+	left: 198px;
 }
 

@@ -5,7 +5,7 @@ import './style.css';
 const Title4 = () => {
   return (
 	 <>
-		<h2 className='title title__slider'>КОНТАКТЫ</h2>
+		<h2 className='title contact__title'>КОНТАКТЫ</h2>
 
 	 </>
   );

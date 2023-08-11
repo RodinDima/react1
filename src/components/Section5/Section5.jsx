@@ -4,6 +4,8 @@ import Title4 from '../Title4/Title';
 import './style.css';
 
 import Button3 from '../Button3/Button';
+import Title5 from '../Title5/Title';
+import ButtonForm from '../ButtonForm/ButtonForm';
 
 
 
@@ -38,10 +40,10 @@ const Section5 = () => {
           </div>
           
           <form className="contacts__form">
-            <Title4 />
+            <Title5 />
             <input type="text" placeholder='Как Вас зовут?'/>
-            <input type="text" placeholder='Как Вас зовут?' />
-            <Button3 className="btn3" />
+            <input type="text" placeholder='Ваш номер телефона' />
+            <ButtonForm/>
           </form>
             </div>
           </div>

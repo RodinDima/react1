@@ -6,7 +6,7 @@ header {
 		min-height: 700px;
 		color: #fff;
 		margin-bottom: 300px;
-		position: relative;
+	
 }
 .container {
 	max-width: 1230px;
@@ -21,8 +21,11 @@ header {
 	padding-top: 47px;
 	align-items: center;
 	margin-bottom: 105px;
+	transition: all .2s ease-in-out;
 }
-
+.header__top svg:hover{
+	transform: scale(1.2);
+}
 .tel {
 	text-decoration: none;
 	color: #fff;
@@ -61,6 +64,7 @@ p {
 
 .header__content {
 	margin-bottom: 30px;
+	position: relative;
 }
 
 .btn {
@@ -74,6 +78,6 @@ p {
 .header__img {
 	
 	position: absolute;
-	top: 438px;
-	left: 586px;
+	top: 232px;
+	right: 0;
 }

@@ -20,11 +20,13 @@ const Section1 = () => {
             <h1>авто из сша “под ключ”</h1>
             <h2>ЗАКАЖИ СЕБЕ АВТО ИЗ США С ВЫГОДОЙ ДО 40%</h2>
             <p>Подбор, покупка, доставка, растаможка, ремонт, оформление по договору</p>
+            <div className="header__img"><Auto /></div>
           </div>
           <Button />
           <Social />
+        
         </div>
-        <div className="header__img"><Auto /></div>
+        
 
        </header>
         

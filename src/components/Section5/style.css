@@ -3,7 +3,9 @@
 	justify-content: space-between;
 }
 
-.contacts__content {}
+.contacts__content {
+	padding-top: 50px;
+}
 
 .contacts__list {
 	list-style: none;
@@ -45,13 +47,24 @@ input {
 		display: block;
 		font-size: 24px;
 		text-align: center;
+	border: 1px solid #FFF;
+	color: white;
+		
+		
 
 }
 input::placeholder{
 	color: var(--unnamed, #C4C4C4);
 		font-family: Oswald;
 		font-size: 18px;
-		font-weight: 300;
+		font-weight: 300;}
+
 		
-}
+		
+
 	
+.title__slider--contact {
+	color: var(--unnamed, #21062A);
+	margin-bottom: 50px;
+}
+

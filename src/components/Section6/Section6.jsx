@@ -19,11 +19,22 @@ const Section6 = () => {
                   <Social />
                   <div className="politic">
                     <a href="#">Политика конфиденциальности</a>
-                  </div>
+            </div>
+           
             </div>
           </div>
         </div>
+       <table>
+        <tr>
+              1
+          </tr>
+          <tr>21111111111</tr>
+          <tr>21111111</tr>
+          <tr>211111111</tr>
+          <tr>222222222</tr>
 
+
+      </table>
     </>
   );
 }

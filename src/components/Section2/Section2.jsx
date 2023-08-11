@@ -1,7 +1,8 @@
 
 import Title from '../Title/Title';
 import './style.css';
-import Button2 from '../Button2/Button';
+import Button2 from '../ButtonServices/ButtonServices';
+import BtnServices from '../ButtonServices/ButtonServices';
 
 
 
@@ -62,7 +63,7 @@ const Section2 = () => {
 				
 				
 				  </div>
-					<Button2/>
+					<BtnServices/>
 				</div>
 				
 			</div>

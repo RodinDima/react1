@@ -1,14 +1,16 @@
 .advances {
-	display: flex;
+	
 	margin-bottom: 100px;
 }
-
+.advances__inner{
+	display: flex;
+}
 .AutoMy {
  margin-right: 95px;
 
 }
 .advances__content {
-
+width: 100%;
 }
 
 .advances__title title  {
@@ -19,7 +21,7 @@
 .advances__list {
 	list-style: none;
 	background: var(--unnamed, #21062A);
-	min-width: 785px;
+	
 	padding-top: 23px;
 	padding-left: 185px;
 	padding-bottom: 45px;

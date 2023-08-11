@@ -1,15 +1,15 @@
-.contact__title{
-	color: var(--unnamed, #21062A);
+.form__title{
+	color: var(--unnamed, #FFF);
 	margin-bottom: 50px;
 	position: relative;
 }
 
-.contact__title::after{
+.form__title::after{
 	content: "";
 		position: absolute;
 		width: 80px;
 		height: 3px;
-		background: #21062A;
+		background: #FFF;
 		top: 27px;
 		margin-left: 8px;
 }
