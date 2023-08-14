@@ -116,6 +116,11 @@ p {
 				font-weight: 400;
 				line-height: 75px;}
 		
+	.services__content:{
+		display: flex;
+		flex-wrap: wrap;
+	} ;
+		
 	
 		
 }
@@ -160,3 +165,29 @@ p {
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 9px;}}
+
+
+@media (max-width: 490px){
+
+	.header__content h1 {
+			font-size: 27px;
+			line-height: 44px;}
+		h2 {
+			font-size: 17px;
+			line-height: 28px;}
+
+		.header__top {
+			flex-wrap: wrap;
+			align-items: center;	}
+			
+		.header__top svg{
+		display:block;
+						}
+		
+		.tel {
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 38px;
+
+		}
+	}

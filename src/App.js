@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <Section1/> 
-      {/*<Section2/> 
-      <Section3/> 
+      <Section2/> 
+      {/*<Section3/> 
       <SectionSlider/> 
       <Section5/> 
-      <Section6/> */}
+      <Section6/>*/}
      
    
     </>
