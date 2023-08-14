@@ -6,7 +6,7 @@ import './style.css';
 const Button = () => {
   return (
 	 <>
-		<a className="btn" href="">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+		<button className="btn" type="button">Консультація експерта</button>
 
 	 </>
   );

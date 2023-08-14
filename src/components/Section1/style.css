@@ -1,14 +1,23 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+
 header {
 	background-image: url(./image/back.jpg);
 	background-repeat: no-repeat;
-		block-size: cover;
-		background-position: top center;
-		min-height: 700px;
-		color: #fff;
-		margin-bottom: 300px;
+	background-size: cover;
+	background-position: top center;
+	min-height: 700px;
+	color: #fff;
+	margin-bottom: 300px;
 	
 }
-.container {
+[class$=__container] {
 	max-width: 1230px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -23,13 +32,10 @@ header {
 	margin-bottom: 105px;
 	transition: all .2s ease-in-out;
 }
-.header__top svg:hover{
-	transform: scale(1.2);
-}
+
 .tel {
 	text-decoration: none;
 	color: #fff;
-	font-family: Oswald;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 53px;
@@ -40,7 +46,6 @@ header {
 	text-decoration: underline;
 }
 h1 {
-	font-family: Oswald;
 		font-size: 72px;
 		font-style: normal;
 		font-weight: 400;
@@ -48,18 +53,26 @@ h1 {
 		text-transform: uppercase;
 }
 h2 {
-	font-family: Oswald;
+
 		font-size: 36px;
 		font-style: normal;
 		font-weight: 400;
 		line-height: 53px;
 		text-transform: uppercase;
 }
+
+
+.header__content p{
+	margin-bottom: 30px;
+}
+
 p {
-	font-family: Oswald;
+	display: block;
 		font-size: 18px;
 		font-weight: 300;
 		line-height: 27px;
+		margin-bottom: 30px;
+		
 }
 
 .header__content {
@@ -67,12 +80,12 @@ p {
 	position: relative;
 }
 
-.btn {
-	margin-bottom: 70px;
-}
+
 
 .header__social {
 	margin-left: 66px;
+	margin-top: 70px;
+	
 }
 
 .header__img {
@@ -81,3 +94,69 @@ p {
 	top: 232px;
 	right: 0;
 }
+
+
+	
+@media (max-width: 1130px){
+	.header__img svg {
+			width: 90%;
+		}
+		.header__content h1{
+			font-size: 58px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 75px;
+		}
+}
+
+@media (max-width: 1024px) {
+	.header__content h1 {
+				font-size: 59px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 75px;}
+		
+	
+		
+}
+
+@media (max-width: 930px) {
+	.header__content h1 {
+			font-size: 52px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 57px;}
+		.tel {
+		
+			font-size: 29px;
+			font-weight: 400;
+			line-height: 13px;
+
+
+}}
+
+@media (max-width: 700px){
+	.header__content{
+		text-align: center;
+		
+	}
+		.header__content h1 {
+			font-size: 42px;
+			
+			line-height: 51px;
+}
+		h2 {
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 36px;}}
+
+@media (max-width: 490px){
+	.header__content h1 {
+			font-size: 34px;
+			line-height: 56px;
+}
+.tel {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 9px;}}

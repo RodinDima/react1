@@ -6,7 +6,7 @@ import './style.css';
 const ButtonForm = () => {
   return (
 	 <>
-		<a className="BtnForm" href="">Отправить заявку</a>
+		<button className="BtnForm" type="submit">Отправить заявку</button>
 
 	 </>
   );

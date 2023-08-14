@@ -8,8 +8,8 @@ import Title2 from '../Title2/Title';
 const Section3 = () => {
   return (
     <>
-      <div className="advances">
-        <div className="container">
+      <section className="advances">
+        <div className="advances__container">
           <div className="advances__inner">
           <img className='AutoMy' src={AutoMy} alt="AutoMy" />
           <div className="advances__content">
@@ -44,7 +44,7 @@ const Section3 = () => {
 
 
 
-      </div>
+      </section>
       
     
 

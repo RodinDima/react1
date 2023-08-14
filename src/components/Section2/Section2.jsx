@@ -9,12 +9,12 @@ import BtnServices from '../ButtonServices/ButtonServices';
 const Section2 = () => {	
   return (
 	 <>
-		  
-		  <div className="container">
+		 <section className="services">	  
+		  <div className="services__container">
 			  
 			  {/*<h2 className='title services__title'>НАШИ УСЛУГИ</h2>*/}
 			  <Title />
-			  <div className="services">			  	  
+			 		  	  
 			  	<div className="services__content">
 				  
 				  <div className="left">
@@ -66,7 +66,7 @@ const Section2 = () => {
 					<BtnServices/>
 				</div>
 				
-			</div>
+			</section>
 		
 	 </>
   );

@@ -15,8 +15,8 @@ const Section5 = () => {
     <>
       
           
-        <div className="contacts">
-          <div className="container">
+        <section className="contacts">
+          <div className="contacts__container">
             
           <div className="contacts__inner">
           <div className="contacts__content">
@@ -39,15 +39,18 @@ const Section5 = () => {
 
           </div>
           
-          <form className="contacts__form">
-            <Title5 />
-            <input type="text" placeholder='Как Вас зовут?'/>
-            <input type="text" placeholder='Ваш номер телефона' />
-            <ButtonForm/>
-          </form>
+                <div className='contacts__box'>
+                  <form className="contacts__form">
+                    <Title5 />
+                    <input type="text" placeholder='Как Вас зовут?'/>
+                    <input type="text" placeholder='Ваш номер телефона' />
+                    <ButtonForm/>
+                  </form>
+                </div>
+            
             </div>
           </div>
-       </div> 
+       </section> 
      
       
      

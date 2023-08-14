@@ -11,6 +11,9 @@
 		text-transform: uppercase;
 		transition: all .4s;
 		margin-top: 78px;
+		outline: none;
+		border: none;
+		cursor: pointer;
 }
 
 .BtnForm:hover {

@@ -10,19 +10,22 @@ const Section1 = () => {
   return (
     <>
       <header>
-        <div className="container">
+        <div className="header__container">
           
           <div className="header__top">
             <Vector />
             <a className="tel" href="tel:">+38 (050) 555 66 77</a>
           </div>
           <div className="header__content">
-            <h1>авто из сша “под ключ”</h1>
-            <h2>ЗАКАЖИ СЕБЕ АВТО ИЗ США С ВЫГОДОЙ ДО 40%</h2>
-            <p>Подбор, покупка, доставка, растаможка, ремонт, оформление по договору</p>
+            <h1>авто з США "під ключ"”</h1>
+            <h2>Замов собі авто з вигодою до 40%</h2>
+            <p>Підбір, купівля, доставка, розмитнення, ремонт, оформлення за договором</p>
             <div className="header__img"><Auto /></div>
+            <Button />
+          
+          
           </div>
-          <Button />
+          
           <Social />
         
         </div>
@@ -31,8 +34,8 @@ const Section1 = () => {
        </header>
         
       
-       <div></div>
-       <div className="box"></div>
+      
+       
 
     </>
   );

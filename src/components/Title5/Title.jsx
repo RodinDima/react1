@@ -5,7 +5,7 @@ import './style.css';
 const Title5 = () => {
   return (
 	 <>
-		<h2 className='title form__title'>КОНТАКТЫ</h2>
+		<h2 className='title form__title'>Залишити заявку</h2>
 
 	 </>
   );
