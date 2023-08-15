@@ -1,10 +1,12 @@
 .contacts__inner {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .contacts__content {
 	padding-top: 50px;
+	width: 280px;
 }
 
 .contacts__list {

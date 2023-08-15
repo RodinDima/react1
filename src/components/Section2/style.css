@@ -35,7 +35,7 @@ h3 {
 	display: flex;
 }
 .left {
-	max-width:504px;
+	width:504px;
 	margin-right: 96px;
 }
 p {

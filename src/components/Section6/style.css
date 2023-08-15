@@ -1,6 +1,9 @@
 .footer {
-	height: 100px;
+	min-height: 100px;
 	background: var(--unnamed, #21062A);
+	align-items: center;
+	display: flex;
+	justify-content: center;
 	
 	
 }
@@ -11,7 +14,16 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top:36px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.footer__container{
+	
+		
+		justify-content: space-between;
+		/* Вирівнювання по горизонталі */
+		width: 100%;
 }
 
 .politic a {

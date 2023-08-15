@@ -21,10 +21,8 @@ width: 100%;
 .advances__list {
 	list-style: none;
 	background: var(--unnamed, #21062A);
+	padding: 25px 0 25px 185px;
 	
-	padding-top: 23px;
-	padding-left: 185px;
-	padding-bottom: 45px;
 }
 
 .advances__item {

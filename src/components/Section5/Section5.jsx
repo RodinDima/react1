@@ -42,8 +42,8 @@ const Section5 = () => {
                 <div className='contacts__box'>
                   <form className="contacts__form">
                     <Title5 />
-                    <input type="text" placeholder='Как Вас зовут?'/>
-                    <input type="text" placeholder='Ваш номер телефона' />
+                    <input className='contacts__input' type="text" placeholder='Как Вас зовут?'/>
+                    <input className='contacts__input' type="text" placeholder='Ваш номер телефона' />
                     <ButtonForm/>
                   </form>
                 </div>

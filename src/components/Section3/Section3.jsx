@@ -14,23 +14,23 @@ const Section3 = () => {
           <img className='AutoMy' src={AutoMy} alt="AutoMy" />
           <div className="advances__content">
             <Title2 />
-            <ul className="advances__list">
-              <li className="advances__item">
+            <div className="advances__list">
+              <div className="advances__item">
                 <p className="advances__item-num">650</p>
                 <p className="advances__item-title">успешно доставленных авто</p>
                 <p className="advances__item-text">большой опыт пригона автомобилей из США под ключ, все клиенты остались довольны на 100%</p>
-              </li>
-              <li className="advances__item">
+              </div>
+              <div className="advances__item">
                 <p className="advances__item-num">5</p>
                 <p className="advances__item-title">лет на рынке Украины</p>
                 <p className="advances__item-text">Работаем по всей территории Украины, работаем по договору с клиентами</p>
-              </li>
-              <li className="advances__item">
+              </div>
+              <div className="advances__item">
                 <p className="advances__item-num">100 %</p>
                 <p className="advances__item-title">доверия клиентов</p>
                 <p className="advances__item-text">Онлайн отчетность. Вы всегда в курсе статуса подбора вашего авто. Фото и видео отчет</p>
-              </li>
-            </ul>
+              </div>
+            </div>
 
           </div>
             </div>

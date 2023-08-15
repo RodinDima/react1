@@ -74,23 +74,7 @@ const SectionSlider = () => {
               </div>
              </SwiperSlide>
           </Swiper>
-            {/*<ul className="slider__list">
-              <li className="slider__item">
-                <img className='Infinity' src={Infinity} alt="Infinity" />
-                <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
-              </li>
-              <li className="slider__item">
-                <img className='Infinity' src={Infinity} alt="Infinity" />
-                <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 5500 $</div>
-              </li>
-              <li className="slider__item">
-                <img className='Infinity' src={Infinity} alt="Infinity" />
-                <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
-              </li>
-            </ul>*/}
+           
           </div>
 
          </div>

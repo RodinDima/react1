@@ -4,6 +4,7 @@ import { ReactComponent as Auto } from './image/auto.svg';
 import { ReactComponent as Vector } from './image/vector.svg';
 import Button from '../Button/Button';
 import Social from '../Social/Social';
+import Buttonx from '../Buttonx/Buttonx';
 
 
 const Section1 = () => {
@@ -21,7 +22,14 @@ const Section1 = () => {
             <h2>Замов собі авто з вигодою до 40%</h2>
             <p>Підбір, купівля, доставка, розмитнення, ремонт, оформлення за договором</p>
             <div className="header__img"><Auto /></div>
-            <Button />
+            <Buttonx
+              buttonText="КНОПКА"
+              onClick={() => { /* Обробник події */ }}
+              className="button header-button" // Додатковий клас
+            />
+            
+            
+            {/*<Button />*/}
           
           
           </div>
