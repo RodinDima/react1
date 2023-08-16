@@ -24,13 +24,12 @@ const SectionSlider = () => {
               spaceBetween={10} // проміжок між слайдами
               modules={[Navigation]}
               modules={[Pagination]} // додаткові кнопки для навігації
-              pagination={{ clickable: true }} //
               pagination={{ type: 'bullets', clickable: true }}
-               
+              navigation
                
               >
             
-
+               
             <SwiperSlide>
               <div className="slider__item">
                 <img className='Infinity' src={Infinity} alt="Infinity" />

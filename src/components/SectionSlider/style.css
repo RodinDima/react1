@@ -66,3 +66,26 @@
 	color: #fff;
 }
 
+
+
+.swiper-wrapper{
+
+	margin-bottom: 30px;
+}
+.swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal .swiper-pagination-bullet {
+  
+	
+width: 30px;
+  height: 10px;
+  background-color: #b31c1c; /* Змініть колір на ваш власний */
+ margin-left: 20px;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+
+
+
