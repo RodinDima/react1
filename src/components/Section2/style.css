@@ -51,7 +51,7 @@ p {
 }
 .list__item {
 	border: 1px solid var(--unnamed, #C4C4C4);
-	padding: 10px 17px 9px 113px;
+	padding: 10px 17px 9px 110px;
 	
 	transition: all .5s;
 	width: 450px;

@@ -72,3 +72,6 @@ input::placeholder{
 	margin-bottom: 50px;
 }
 
+.contacts__form input:last-of-type {
+	 margin-bottom: 78px;
+}

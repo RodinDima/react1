@@ -2,7 +2,6 @@ import './reset.css';
 import './style.css';
 import { ReactComponent as Auto } from './image/auto.svg';
 import { ReactComponent as Vector } from './image/vector.svg';
-import Button from '../Button/Button';
 import Social from '../Social/Social';
 import Buttonx from '../Buttonx/Buttonx';
 
@@ -23,7 +22,7 @@ const Section1 = () => {
             <p>Підбір, купівля, доставка, розмитнення, ремонт, оформлення за договором</p>
             <div className="header__img"><Auto /></div>
             <Buttonx
-              buttonText="КНОПКА"
+              buttonText="Консультація експерта"
               onClick={() => { /* Обробник події */ }}
               className="button header-button" // Додатковий клас
             />

@@ -19,7 +19,7 @@ const Section6 = () => {
                   <Vector />
                   <SocialFooter />
                   <div className="politic">
-                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Політика конфіденційності</a>
             </div>
            
             </div>

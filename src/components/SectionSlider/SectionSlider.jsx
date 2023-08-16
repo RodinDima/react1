@@ -35,42 +35,42 @@ const SectionSlider = () => {
               <div className="slider__item">
                 <img className='Infinity' src={Infinity} alt="Infinity" />
                 <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
+                <div className="slider__price">Економія 4500 $</div>
               </div>
               </SwiperSlide>
              <SwiperSlide>
               <div className="slider__item">
                 <img className='Infinity' src={Infinity} alt="Infinity" />
                 <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
+                <div className="slider__price">Економія 4500 $</div>
               </div>
               </SwiperSlide>
              <SwiperSlide>
               <div className="slider__item">
                 <img className='Infinity' src={Infinity} alt="Infinity" />
                 <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
+                <div className="slider__price">Економія 4500 $</div>
               </div>
               </SwiperSlide>
             <SwiperSlide>
               <div className="slider__item">
                 <img className='Infinity' src={Infinity} alt="Infinity" />
                 <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
+                <div className="slider__price">Економія 4500 $</div>
               </div>
               </SwiperSlide>
             <SwiperSlide>
               <div className="slider__item">
                 <img className='Infinity' src={Infinity} alt="Infinity" />
                 <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
+                <div className="slider__price">Економія 4500 $</div>
               </div>
               </SwiperSlide>
             <SwiperSlide>
               <div className="slider__item">
                 <img className='Infinity' src={Infinity} alt="Infinity" />
                 <div className="slider__title">INFINITI QX50 2016 г.</div>
-                <div className="slider__price">Экономия 4500 $</div>
+                <div className="slider__price">Економія 4500 $</div>
               </div>
              </SwiperSlide>
           </Swiper>

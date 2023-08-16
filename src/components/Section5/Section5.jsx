@@ -3,9 +3,10 @@
 import Title4 from '../Title4/Title';
 import './style.css';
 
-import Button3 from '../Button3/Button';
+
 import Title5 from '../Title5/Title';
-import ButtonForm from '../ButtonForm/ButtonForm';
+
+import Buttonx from '../Buttonx/Buttonx';
 
 
 
@@ -24,12 +25,13 @@ const Section5 = () => {
             
             <ul className="contacts__list">
               <li className="contacts__item">
-                <p className="contacts__item-title">Адрес</p>
-                <p className="contacts__item-text">Киев, Подол <br /> ул. Константиновская, д.71</p>
+                <p className="contacts__item-title">Адреса</p>
+                <p className="contacts__item-text">Київ, Подол <br /> вул. Костянтинівська, б.71</p>
               </li>
               <li className="contacts__item">
-                <p className="contacts__item-title">Время работы</p>
-                <p className="contacts__item-text"> Пн-Сб: с 9:00 до 19:00, <br /> Вс: выходной</p>
+                <p className="contacts__item-title">Час роботи
+</p>
+                <p className="contacts__item-text"> Пн-Сб: з 9:00 до 19:00, <br /> Нд: вихідний</p>
               </li>
               <li className="contacts__item">
                 <p className="contacts__item-title">Телефон</p>
@@ -42,9 +44,13 @@ const Section5 = () => {
                 <div className='contacts__box'>
                   <form className="contacts__form">
                     <Title5 />
-                    <input className='contacts__input' type="text" placeholder='Как Вас зовут?'/>
+                    <input className='contacts__input' type="text" placeholder='Як Вас звати?'/>
                     <input className='contacts__input' type="text" placeholder='Ваш номер телефона' />
-                    <ButtonForm/>
+                     <Buttonx
+                      buttonText="Залишити заявку"
+                      onClick={() => { /* Обробник події */ }}
+                      className="button header-button" // Додатковий клас
+                    />
                   </form>
                 </div>
             

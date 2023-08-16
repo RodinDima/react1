@@ -174,6 +174,9 @@ p {
   .slider__container .slider__content {
     margin-bottom: 20px;
   }
+  .contacts__box .contacts__form input:last-of-type {
+      margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -260,6 +263,17 @@ p {
     font-weight: 400;
     line-height: 9px;
   }
+  .header__content h1 {
+      font-size: 29px;
+      line-height: 47px;
+  }
+  .header__content h2 {
+      font-size: 20px;
+      line-height: 28px;
+  }
+  .header__content p {
+  font-size: 14px;
+  line-height: 25px;}
 }
 
 @media (max-width: 490px) {
@@ -279,6 +293,7 @@ p {
 
   .header__top svg {
     display: block;
+    scale: 0.8;
   }
 
   .tel {
@@ -324,6 +339,7 @@ p {
   }
   .header__top {
     margin-bottom: 45px;
+    justify-content: center;
   }
   h2 title .services__title {
     font-size: 20px;
@@ -348,7 +364,28 @@ p {
   .footer__container .footer__content {
     row-gap: 5px;
   }
+  
 }
+
+
+
 .header-button{
-  background-color: #bd0f0f;
+  display: inline-block;
+  color: #fff;
+  padding: 14px 54px;
+  background-color: #5A0D67;
+  font-family: Oswald;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-transform: uppercase;
+  transition: all .4s;
+  border: none;
+}
+
+.header-button:hover {
+  background-color: #fff;
+  color: #5A0D67;
+  cursor: pointer;
+
 }

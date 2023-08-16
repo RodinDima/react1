@@ -5,7 +5,7 @@ import './style.css';
 const Title2 = () => {
   return (
 	 <>
-		<h2 className='title advances__title'>Почему мы?</h2>
+		<h2 className='title advances__title'>Чому ми?</h2>
 
 	 </>
   );
