@@ -93,6 +93,11 @@ p {
     font-weight: 400;
     line-height: 75px;
   }
+  
+  .box2 {
+    margin-bottom: 25px;
+  }
+  
   .list .list__item:hover {
     width: 450px;
   }
@@ -133,9 +138,7 @@ p {
     margin-bottom: 20px;
   }
 
-  .list__item: {
-    width: 100%;
-  }
+  
 
   .list .list__item:hover {
     width: 100%;
