@@ -4,7 +4,8 @@ import cn from 'classnames';
 import style from './style.module.css';
 
 const Buttonx = (props) => {
-	 const {
+	 
+	const {
 		  className,
 		  buttonText,
 		  onClick,
