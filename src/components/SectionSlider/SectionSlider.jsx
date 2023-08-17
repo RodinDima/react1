@@ -1,14 +1,17 @@
 
 import React from 'react';
 import Title3 from '../Title3/Title';
-import './style.css';
+
 import Infinity from './image/infinity.png';
 
 import { Navigation, Pagination } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 
+import "swiper/css/pagination";
+
+import 'swiper/css';
+import './style.css';
 
 
 
@@ -21,11 +24,32 @@ const SectionSlider = () => {
           <div className="slider__content">
             <Swiper
               slidesPerView={3}
-              spaceBetween={10} // проміжок між слайдами
+              spaceBetween={20} // проміжок між слайдами
               modules={[Navigation]}
               modules={[Pagination]} // додаткові кнопки для навігації
-              pagination={{ type: 'bullets', clickable: true }}
+              pagination={{ type: 'bullets', clickable: true, }}
               navigation
+                breakpoints={{
+                  300: {
+                    slidesPerView: 1,
+                  },
+                  
+                  
+                  560: {
+                    slidesPerView: 2,
+                  },
+
+                  830: {
+                    slidesPerView: 2,
+                  },
+                  1238: {
+                    slidesPerView: 3,
+                  },
+                  // Додавайте інші брейкпоінти за потреби
+                }}
+               
+              
+           
                
               >
             

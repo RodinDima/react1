@@ -2,6 +2,11 @@
 	color: var(--unnamed, #21062A);
 	margin-bottom: 50px;
 	position: relative;
+	font-size: 36px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 53px;
+	 text-transform: uppercase;
 }
 
 .contact__title::after{

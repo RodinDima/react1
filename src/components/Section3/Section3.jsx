@@ -1,17 +1,31 @@
 
 import './style.css';
-import  AutoMy  from './image/auto-my.png';
+import AutoMy from './image/auto-my.png';
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation';
 
 import Title2 from '../Title2/Title';
 
 
+
 const Section3 = () => {
+  
+  
+  
   return (
+    
     <>
       <section className="advances">
         <div className="advances__container">
           <div className="advances__inner">
-          <img className='AutoMy' src={AutoMy} alt="AutoMy" />
+          
+            
+            <ScrollAnimation>
+
+            <img className='AutoMy' src={AutoMy} alt="AutoMy" />
+         
+          </ScrollAnimation>
+
+            
           <div className="advances__content">
             <Title2 />
             <div className="advances__list">

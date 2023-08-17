@@ -2,6 +2,7 @@
 import Title from '../Title/Title';
 import './style.css';
 import Buttonx from '../Buttonx/Buttonx';
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation';
 
 
 
@@ -15,7 +16,7 @@ const Section2 = () => {
 			  <Title />
 			 		  	  
 			  	<div className="services__content">
-				  
+				
 				  <div className="left">
 				  	<div className="box1">
 					  			<h3>Чому ввезення авто із США?</h3>
@@ -28,7 +29,8 @@ const Section2 = () => {
 					  			<h3>Чому така низька ціна?</h3>
 				  				<p>Биті автомобілі із США викуповуються з аукціонів страхових компаній. На цих аукціонах машина втрачає половину ціни навіть через мінімальні пошкодження. Якщо враховувати грошові витрати, а саме викуп, доставку, митницю та ремонт, то ціна аналогічного за станом автомобіля в Україні буде вищою на 35-50%, а нові коштуватимуть космічні гроші.</p>
 					</div>		  
-				  </div>
+				</div>
+				
 				  <div className="right">
 					  <ol className="list">
 						  <li className="list__item">

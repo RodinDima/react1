@@ -40,19 +40,46 @@ header {
 .tel:hover {
   text-decoration: underline;
 }
-h1 {
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header__content h1  {
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
   line-height: 107px;
   text-transform: uppercase;
-}
-h2 {
+  animation: slideInFromLeft 1s ease-in-out forwards;
+  
+  }
+
+ .header__content h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 53px;
   text-transform: uppercase;
+  animation: slideInFromLeft 1s ease-in-out forwards;
+ 
 }
 
 .header__content p {
@@ -65,6 +92,7 @@ p {
   font-weight: 300;
   line-height: 27px;
   margin-bottom: 30px;
+  animation: slideInFromLeft 1s ease-in-out forwards;
 }
 
 .header__content {
@@ -77,10 +105,16 @@ p {
   margin-top: 70px;
 }
 
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
 .header__img {
   position: absolute;
   top: 232px;
   right: 0;
+  animation: slideInFromBottom 1s ease-in-out both;
+  animation-delay: 0.5s;
 }
 
 @media (max-width: 1130px) {
@@ -367,6 +401,10 @@ p {
   .footer__container .footer__content {
     row-gap: 5px;
   }
+     .swiper-pagination-bullet {
+    scale: 0.3;
+    gap: 4px;
+  }
   
 }
 
@@ -395,3 +433,5 @@ p {
  
 
 }
+
+ 
