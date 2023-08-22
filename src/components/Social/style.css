@@ -1,9 +1,0 @@
-.social {
-	display: flex;
-	gap: 10px;
-	cursor: pointer;
-}
-
-.social svg:hover{
-	transform: scale(1.3);
-}
